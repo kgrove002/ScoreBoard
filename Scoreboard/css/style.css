@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 20px;
+  color: orangered;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.7)),
+    url('background.jpg');
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Headers */
+h1 {
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 75px;
+}
+
+/* Numbers */
+
+.win-numb {
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+
+.per-numb {
+  font-size: 200px;
+  padding-bottom: 50px;
+}
+
+.lost-numb {
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+
+.total-numb {
+  font-size: 75px;
+}
+
+/* Misc Styling */
+
+.total-score {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.grid-item {
+  border: 2px solid black;
+  margin-top: 150px;
+  margin-bottom: 81px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 25px 100px;
+  font-weight: 300;
+  font-size: 50px;
+  text-decoration: none;
+  border-radius: 150px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  background-color: #9f9f9f;
+  color: black;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
